@@ -27,7 +27,8 @@ rollDiceButton.addEventListener('click', () => {
 })
 
 resetButton.addEventListener('click', () => {
-        for (let i = 0; i < diceQuantity; i++) {
+        let diceToRemove = document.getElementsByClassName("die-image").length;
+        for (let i = 0; i < diceToRemove; i++) {
         document.querySelector(`#dice-display${i}`).remove()
         rollDiceButton.disabled = false
     }
