@@ -7,24 +7,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 200px;
     width: 100%;
 }
 
-#button {
+#roll-button {
     font-size: 40px;
     width: 500px;
     height: 100px;
-    border: 3px dashed black;
     border-radius: 20px;
+    border: none;
     background-color: lightsteelblue;
 }
 
-#button:hover {
+#roll-button:hover {
     background-color: lightgray;
 }
 
-#button:active {
+#roll-button:active {
     background-color: darkgray;
 }
 
@@ -39,44 +39,36 @@ body {
     justify-content: center;
 }
 
+.die-image {
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 25px;
+}
+
+#dice-quantity-selection {
+    margin-top: 20px;
+}
+
 #reset-button {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 10px;
+    height: 100px;
 }
 
-/* .dice-1 {
-    background: url('/images/dice/dice1.svg');
-    background-repeat: no-repeat;
-    width: 100%;
+#reset {
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    background-color: lightsteelblue;
 }
 
-.dice-2 {
-    background: url('/images/dice/dice2.svg');
-    background-repeat: no-repeat;
-    width: 100%;
+#reset:hover {
+    background-color: lightgray;
 }
 
-.dice-3 {
-    background: url('/images/dice/dice3.svg');
-    background-repeat: no-repeat;
-    width: 100%;
+#reset:active {
+    background-color: darkgray;
 }
-
-.dice-4 {
-    background: url('/images/dice/dice4.svg');
-    background-repeat: no-repeat;
-    width: 100%;
-}
-
-.dice-5 {
-    background: url('/images/dice/dice5.svg');
-    background-repeat: no-repeat;
-    width: 100%;
-}
-
-.dice-6 {
-    background: url('/images/dice/dice6.svg');
-    background-repeat: no-repeat;
-    width: 100%;
-} */

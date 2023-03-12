@@ -1,9 +1,9 @@
-var rollDiceButton = document.querySelector('#button');
+var rollDiceButton = document.querySelector('#roll-button');
 var resetButton = document.querySelector('#reset')
 var diceImageDiv = document.querySelector('#dice-container');
 var diceDropDown = document.querySelector('#dice-quantity');
-var randomNumber = null;
 var diceQuantity = document.querySelector('#dice-quantity').value
+var randomNumber = null;
 
 diceDropDown.addEventListener('input', () => {
     diceQuantity = document.querySelector('#dice-quantity').value
@@ -23,11 +23,13 @@ function initialiseDiceQuantity () {
 
 rollDiceButton.addEventListener('click', () => {
     initialiseDiceQuantity()
+    rollDiceButton.disabled = true
 })
 
 resetButton.addEventListener('click', () => {
         for (let i = 0; i < diceQuantity; i++) {
-        diceImageDiv.removeChild(diceImageDiv.firstChild)
+        document.querySelector(`#dice-display${i}`).remove()
+        rollDiceButton.disabled = false
     }
 })
 
