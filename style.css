@@ -32,10 +32,20 @@ body {
     display: flex;
     justify-content: center;
     height: 220px;
-    border: 2px solid black;
 }
 
-.dice-1 {
+#dice-quantity-selection {
+    display: flex;
+    justify-content: center;
+}
+
+#reset-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* .dice-1 {
     background: url('/images/dice/dice1.svg');
     background-repeat: no-repeat;
     width: 100%;
@@ -69,4 +79,4 @@ body {
     background: url('/images/dice/dice6.svg');
     background-repeat: no-repeat;
     width: 100%;
-}
+} */
