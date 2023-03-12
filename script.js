@@ -6,6 +6,6 @@ button.addEventListener('click', () => {
     var randomNumber = Math.floor(Math.random() * 6) + 1;
     console.log(randomNumber);
 
-    diceDiv.classList.add(`dice-${randomNumber}`)
+    diceDiv.setAttribute('src', `/images/dice/dice${randomNumber}.svg`)
 })
 
