@@ -31,31 +31,42 @@ body {
 #dice-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 200px;
+    height: 220px;
+    border: 2px solid black;
+}
+
+.dice-1 {
+    background: url('/images/dice/dice1.svg');
+    background-repeat: no-repeat;
     width: 100%;
 }
 
-.one {
-
+.dice-2 {
+    background: url('/images/dice/dice2.svg');
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
-.two {
-
+.dice-3 {
+    background: url('/images/dice/dice3.svg');
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
-.three {
-
+.dice-4 {
+    background: url('/images/dice/dice4.svg');
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
-.four {
-
+.dice-5 {
+    background: url('/images/dice/dice5.svg');
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
-.five {
-
-}
-
-.six {
-    
+.dice-6 {
+    background: url('/images/dice/dice6.svg');
+    background-repeat: no-repeat;
+    width: 100%;
 }
